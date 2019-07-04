@@ -1,6 +1,26 @@
-{
+{"domain":{
   "id": "",
-  "term": "",
-  "definition": "",
-  "narrowTerms": [{}]
-}
+  "label": "",
+  "description": "",
+  "kingdom": {
+    "id": "",
+    "label": "",
+    "description": "",
+    "division": {
+      "id": "",
+      "label": "",
+      "description": "",
+      "class": {
+        "id": "",
+        "label": "",
+        "description": "",
+        "order": {
+          "id": "",
+          "label": "",
+          "description": "",
+        }
+      }
+    }
+  
+  }
+}}
