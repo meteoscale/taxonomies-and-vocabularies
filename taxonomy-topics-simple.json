@@ -41,10 +41,33 @@
           {"name":"Aerial"},
           {"name":"Mono-Multi Rotor"}
         ]},
-        {"name": "Nacelle"},
-        {"name": "Tower"}, 
-        {"name": "Support Structure"},
-        {"name": "Controls"}
+        {"name": "Rotor", "children": [
+          {"name": "Hub"},
+          {"name": "Pitch"},
+          {"name": "Blades"}
+        ]}
+        {"name": "Nacelle", "children":[
+          {"name": "Gearbox"},
+          {"name": "Generator"},
+          {"name": "Power Electronics"},
+          {"name": "Turbine Control"},
+          {"name": "Yaw"},
+          {"name": "Main Shaft"},
+          {"name": "Cooling"}
+        ]},
+        {"name": "Tower", "children":[
+          {"name": "Tubular"},
+          {"name": "Lattice"}
+        ]}, 
+        {"name": "Support Structure", "children":[
+          {"name": "Foundation"},
+          {"name": "Mooring Lines"},
+          {"name": "Substructure"},
+          {"name": "Floating"}
+        ]},
+        {"name": "Controls", "children":[
+          {"name": "Black-Box"}
+        ]}
       ]
     },
     {
