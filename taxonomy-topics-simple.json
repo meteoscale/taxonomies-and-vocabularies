@@ -35,12 +35,11 @@
     {
       "name": "Wind Turbine",
       "children": [
-        {"name": "Concept Design", "children":[
-          {"name":"Horizontal Axis"},
-          {"name":"Vertical Axis"},
-          {"name":"Aerial"},
-          {"name":"Mono-Multi Rotor"}
-        ]}
+        {"name": "Concept Design"},
+        {"name": "Nacelle"},
+        {"name": "Tower"}, 
+        {"name": "Support Structure"},
+        {"name": "Controls"}
       ]
     },
     {
