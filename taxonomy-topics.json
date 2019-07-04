@@ -1,0 +1,87 @@
+{ "id": "1",
+  "term": "Wind Energy",
+  "definition": "",
+  "narrowTerms": [
+      { "id": "11",
+        "term": "Siting",
+        "definition": "",
+        "narrowTerms": [
+            { "id": "111",
+              "term": "Wind Mapping",
+              "definition": ""
+            },
+            { "id": "112",
+              "term": "Wind Atlases",
+              "definition": ""
+            },
+            { "id": "113",
+              "term": "Long-Term Extrapolation",
+              "definition": "",
+              "narrowTerms":[
+                {"id": "1131",
+                  "term": "Wind Indicies",
+                  "definition": ""
+                }
+              ]
+            },
+            { "id": "114",
+              "term": "Resource Assesment",
+              "definition": ""
+            },
+            { "id": "115",
+              "term": "Design Conditions",
+              "definition": "",
+              "narrowTerms":[
+                {"id": "1151",
+                  "term": "Shear",
+                  "definition": ""
+                },
+                {"id": "1152",
+                  "term": "Turbulence",
+                  "definition": ""
+                },
+                {"id": "1153",
+                  "term": "Extreme Wind",
+                  "definition": ""
+                },
+                {"id": "1154",
+                  "term": "Flow Angle",
+                  "definition": ""
+                }                
+              ]
+            },
+            { "id": "116",
+              "term": "Infrastructures",
+              "definition": ""
+            },
+            { "id": "117",
+              "term": "Spatial Planning",
+              "definition": "",
+              "narrowTerms":[
+                {"id": "1171",
+                  "term": "Legal Aspects",
+                  "definition": ""
+                },
+                {"id": "1172",
+                  "term": "Enviromental Impact",
+                  "definition": "",
+                  "narrowTerms":[
+                    {"id": "11721",
+                      "term": "Noise Perception",
+                      "definition":""
+                    },
+                    {"id": "11722",
+                      "term": "Nature Impacts",
+                      "definition":""
+                    },
+                    {"id": "11723",
+                      "term": "Social Acceptance",
+                      "definition":""
+                    }                    
+                  ]
+                }
+              ]
+            }                                                          
+        ] }
+]
+}
