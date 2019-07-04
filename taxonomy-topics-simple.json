@@ -14,8 +14,7 @@
           "children":[{"name": "Shear"},
                       {"name": "Turbulence"},
                       {"name": "Extreme Wind"},
-                      {"name": "Flow Angle"},
-                      {"name": "Flow Angle"}                      
+                      {"name": "Flow Angle"},                  
             ]},
         {"name": "Infrastructures"},
         {"name": "Spatial Planning",
