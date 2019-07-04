@@ -1,0 +1,87 @@
+{ 
+
+"domain" : {
+    "id": "1",
+    "label": "Wind Energy",
+    "description": " ",
+    "kingdom":[{
+      "id":"11",
+      "label": "Siting",
+      "description": "",
+      "division":[{"id": "111", "label": "Wind Mapping","description":""},
+                  {"id": "112", "label": "Wind Atlas","description":""},
+                  {"id": "113", "label": "Long-Term Extrapolation","description":"",
+                      "class":[{"id":"1131", "label": "Wind Indicies","description":""}]},
+                  {"id": "114", "label": "Resource Assessment","description":""},
+                  {"id": "115", "label": "Design Conditions","description":"",
+                      "class": [{"id":"1151", "label": "Shear","description":""},
+                                {"id":"1152", "label": "Turbulence","description":""},
+                                {"id":"1153", "label": "Extreme Wind","description":""},
+                                {"id":"1154", "label": "Flow Angle","description":""}
+                               ]},
+                  {"id":"116", "label": "Infrastructures","description":""},
+                  {"id":"117", "label": "Spatial Planning","description":"",
+                      "class":[{"id":"1171", "label": "Legal Aspects","description":""},
+                               {"id":"1172", "label": "Enviromental Impact","description":"",
+                                "order":[{"id":"11721", "label": "Noise Perception","description":""},
+                                         {"id":"11722", "label": "Nature Impact","description":""},
+                                         {"id":"11723", "label": "Social Acceptance","description":""}
+                                        ]}
+                              ]}
+                  ]
+
+
+
+                },
+                {
+                  "id":"12",
+                  "label": "Economics",
+                  "description": "",
+                  "division":[{"id": "121", "label": "Project Finance","description":""},
+                              {"id": "122", "label": "LCOE Models","description":""},
+                              {"id": "123", "label": "Support Schemes","description":""},
+                              {"id": "124", "label": "Market Models","description":""},
+                              {"id": "125", "label": "Business Models","description":""}
+                              ]
+
+                },
+                {
+                  "id":"13",
+                  "label": "Wind Turbine",
+                  "description": "",
+                  "division":[{"id": "131", "label": "Concept Design","description":""},
+                              {"id": "132", "label": "Rotor","description":""},
+                              {"id": "133", "label": "Nacelle","description":""},
+                              {"id": "134", "label": "Tower","description":""},
+                              {"id": "135", "label": "Suppoer Structure","description":""},
+                              {"id": "136", "label": "Controls","description":""}
+                              ]
+                },
+                {
+                  "id":"14",
+                  "label": "Wind Power Plant",
+                  "description": "",
+                  "division":[{"id": "141", "label": "Wind Farm","description":""},
+                              {"id": "142", "label": "Wind Farm Control","description":""},
+                              {"id": "143", "label": "Ancillary Services","description":""},
+                              {"id": "144", "label": "Grid Connection","description":""},
+                              {"id": "145", "label": "Performance","description":""},
+                              {"id": "146", "label": "Loads","description":""}
+                              ]
+                },
+                {
+                  "id":"15",
+                  "label": "Operation & Maintenance",
+                  "description": "",
+                  "division":[{"id": "151", "label": "Installation","description":""},
+                              {"id": "152", "label": "Commissioning","description":""},
+                              {"id": "153", "label": "Forecasting","description":""},
+                              {"id": "154", "label": "Health & Safety","description":""},
+                              {"id": "155", "label": "Maintenance Scheduling","description":""},
+                              {"id": "156", "label": "Decommissioning","description":""}
+                              ]
+                }
+               ]
+}
+
+}
