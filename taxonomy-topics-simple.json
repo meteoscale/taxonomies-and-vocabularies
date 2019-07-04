@@ -64,9 +64,6 @@
           {"name": "Mooring Lines"},
           {"name": "Substructure"},
           {"name": "Floating"}
-        ]},
-        {"name": "Controls", "children":[
-          {"name": "Black-Box"}
         ]}
       ]
     },
