@@ -5,5 +5,6 @@ They are the result of IRPWind Open Data initiative in which wind energy experts
 
 The taxonomies and restricted vocabularies are intended to be used by the community and we welcome colaborators willing to extend them and improve them.
 
-Testing
+Some additional text
+
 
