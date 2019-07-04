@@ -34,6 +34,16 @@
       ]
     },
     {
+      "name": "Wind Turbine",
+      "children": [
+        {"name": "Concept Design"},
+        {"name": "Nacelle"},
+        {"name": "Tower"}, 
+        {"name": "Support Structure"},
+        {"name": "Controls"}
+      ]
+    },
+    {
       "name": "Wind Power Plant",
       "children": [
         {"name": "Wind Farm"},
@@ -43,7 +53,18 @@
         {"name": "Performance"},
         {"name": "Loads"}
       ]
-    }    
+    },
+    {
+      "name": "Operation & Maintenance",
+      "children": [
+        {"name": "Installation"},
+        {"name": "Commissioning"},
+        {"name": "Forecasting"}, 
+        {"name": "Health & Safety"},
+        {"name": "Maintenance Scheduling"},
+        {"name": "Decommissioning"}
+      ]
+    }         
   ]
 }
 ]
