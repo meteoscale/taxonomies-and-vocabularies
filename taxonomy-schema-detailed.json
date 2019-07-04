@@ -1,22 +1,22 @@
 {"domain":{
   "id": "",
-  "label": "",
+  "label": "Wind Energy",
   "description": "",
   "kingdom": {
     "id": "",
-    "label": "",
+    "label": "first level narrow terms",
     "description": "",
     "division": {
       "id": "",
-      "label": "",
+      "label": "second level narrow terms",
       "description": "",
       "class": {
         "id": "",
-        "label": "",
+        "label": "third level narrow terms",
         "description": "",
         "order": {
           "id": "",
-          "label": "",
+          "label": "fourth level narrow terms",
           "description": "",
         }
       }
