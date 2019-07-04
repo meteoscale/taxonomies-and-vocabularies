@@ -45,7 +45,7 @@
           {"name": "Hub"},
           {"name": "Pitch"},
           {"name": "Blades"}
-        ]}
+        ]},
         {"name": "Nacelle", "children":[
           {"name": "Gearbox"},
           {"name": "Generator"},
