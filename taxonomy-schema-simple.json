@@ -1,0 +1,19 @@
+[
+  {
+  "name": "Wind Energy",
+  "childred":[
+    {"name": "firt level narrow terms", 
+    "children":[
+      {"name": "second level narrow terms",
+      "children":[
+        {"name":"third level narrow terms",
+        "children":[
+          {"name":"fourth level narrow terms"}
+        ]}
+      ]}
+    ]}
+
+
+  ]
+}
+]
