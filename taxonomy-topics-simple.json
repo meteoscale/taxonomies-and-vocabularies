@@ -14,7 +14,7 @@
           "children":[{"name": "Shear"},
                       {"name": "Turbulence"},
                       {"name": "Extreme Wind"},
-                      {"name": "Flow Angle"},                  
+                      {"name": "Flow Angle"}
             ]},
         {"name": "Infrastructures"},
         {"name": "Spatial Planning",
@@ -34,14 +34,14 @@
       ]
     },
     {
-      "name": "Wind Turbine",
+      "name": "Wind Power Plant",
       "children": [
-        {"name": "Concept Design"},
-        {"name": "Rotor"},
-        {"name": "Nacelle"}, 
-        {"name": "Tower"},
-        {"name": "Support structure"},
-        {"name": "Controls"}
+        {"name": "Wind Farm"},
+        {"name": "Wind Farm Control"},
+        {"name": "Ancillary Services"}, 
+        {"name": "Grid Connection"},
+        {"name": "Performance"},
+        {"name": "Loads"}
       ]
     }    
   ]
