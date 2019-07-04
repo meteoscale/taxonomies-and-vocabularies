@@ -18,7 +18,11 @@
         {"name": "Infrastructures"},
         {"name": "Spatial Planning",
           "children":[{"name": "Legal Aspects"},
-                      {"name": "Enviromental Impact"}
+                      {"name": "Enviromental Impact", "children":[
+                        {"name": "Noise Perception"},
+                        {"name": "Nature Impacts"},
+                        {"name": "Social Acceptance"}
+                      ]}
             ]}
       ]
     },
