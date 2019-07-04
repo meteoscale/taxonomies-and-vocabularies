@@ -77,10 +77,16 @@
     {
       "name": "Wind Power Plant",
       "children": [
-        {"name": "Wind Farm"},
+        {"name": "Wind Farm", "children":[
+          {"name": "Wakes"}
+        ]},
         {"name": "Wind Farm Control"},
         {"name": "Ancillary Services"}, 
-        {"name": "Grid Connection"},
+        {"name": "Grid Connection", "children":[
+          {"name": "Array Cables"},
+          {"name": "Substation"},
+          {"name": "Transmission System"}
+        ]},
         {"name": "Performance"},
         {"name": "Loads"}
       ]
@@ -92,8 +98,17 @@
         {"name": "Commissioning"},
         {"name": "Forecasting"}, 
         {"name": "Health & Safety"},
-        {"name": "Maintenance Scheduling"},
-        {"name": "Decommissioning"}
+        {"name": "Maintenance Scheduling", "childred":[
+          {"name": "Logistics and Forecasting Weather Windows"}
+        ]},
+        {"name": "Decommissioning", "children":[
+          {"name":"End-of-Life Extension", "children":[
+            {"name": "Revamping"},
+            {"name": "Repowering"},
+            {"name": "Re-Certification"},
+            {"name": "Recycling"}
+          ]}
+        ]}
       ]
     }         
   ]
