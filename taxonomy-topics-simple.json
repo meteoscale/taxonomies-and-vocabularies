@@ -1,0 +1,49 @@
+[
+  {
+  "name": "Wind Energy",
+  "children": [
+    {
+      "name": "Siting",
+      "children": [
+        {"name": "Wind Mapping"},
+        {"name": "Wind Atlas"},
+        {"name": "Long-Term Extrapolation", 
+          "children":[{"name": "Wind Indices"}]},
+        {"name": "Resource Assessment"},
+        {"name": "Design Conditions",
+          "children":[{"name": "Shear"},
+                      {"name": "Turbulence"},
+                      {"name": "Extreme Wind"},
+                      {"name": "Flow Angle"}
+            ]},
+        {"name": "Infrastructures"},
+        {"name": "Spatial Planning",
+          "children":[{"name": "Legal Aspects"},
+                      {"name": "Enviromental Impact"}
+            ]}
+      ]
+    },
+    {
+      "name": "Economics",
+      "children": [
+        {"name": "Project Finance"},
+        {"name": "LCOE Models"},
+        {"name": "Support Schemes"}, 
+        {"name": "Market Models"},
+        {"name": "Business Models"}
+      ]
+    },
+    {
+      "name": "Wind Turbine",
+      "children": [
+        {"name": "Concept Design"},
+        {"name": "Rotor"},
+        {"name": "Nacelle"}, 
+        {"name": "Tower"},
+        {"name": "Support structure"},
+        {"name": "Controls"}
+      ]
+    }    
+  ]
+}
+]
