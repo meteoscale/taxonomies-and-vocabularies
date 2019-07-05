@@ -39,7 +39,7 @@
     {"name": "Electrical Models", 
       "children":[
         {"name": "Power Flow"}, {"name": "OPF"}, {"name": "Small-Signal Models"}, {"name": "Dynamic Models"},
-        {"name": "Short Circuit Models"}, {"name": "State Estimation"}, {"name": "Power Protection Analysis models"}, {"name": "Contigency Analysis Models"}, {"name": "Harmonic Models"}  
+        {"name": "Short Circuit Models"}, {"name": "State Estimation"}, {"name": "Power Protection Analysis Models"}, {"name": "Contigency Analysis Models"}, {"name": "Harmonic Models"}  
           ]},   
 
     {"name": "Financial Models", 
