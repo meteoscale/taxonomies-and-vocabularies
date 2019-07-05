@@ -49,22 +49,59 @@
                   "id":"13",
                   "term": "Wind Turbine",
                   "definition": "",
-                  "division":[{"id": "131", "term": "Concept Design","definition":""},
-                              {"id": "132", "term": "Rotor","definition":""},
-                              {"id": "133", "term": "Nacelle","definition":""},
-                              {"id": "134", "term": "Tower","definition":""},
-                              {"id": "135", "term": "Suppoer Structure","definition":""},
-                              {"id": "136", "term": "Controls","definition":""}
+                  "division":[{"id": "131", "term": "Concept Design","definition":"", "class":[
+                    {"id": "1311", "term": "Horizontal Axis", "definition":""},
+                    {"id": "1312", "term": "Vertical Axis", "definition":""},
+                    {"id": "1313", "term": "Aerial", "definition":""},
+                    {"id": "1314", "term": "Mono-Multi Rotor", "definition":""}
+                  ]},
+                              {"id": "132", "term": "Rotor","definition":"",
+                                "class":[
+                                  {"id": "1321", "term": "Hub", "definition":""},
+                                  {"id": "1322", "term": "Pitch", "definition":""},
+                                  {"id": "1323", "term": "Blades", "definition":""}
+                                ]},                      
+                              {"id": "133", "term": "Nacelle","definition":"",
+                                "class":[
+                                  {"id": "1331", "term": "Gearbox", "definition":""},
+                                  {"id": "1332", "term": "Generator", "definition":""},
+                                  {"id": "1333", "term": "Power Electronics", "definition":""},
+                                  {"id": "1334", "term": "Turbine Control", "definition":""},
+                                  {"id": "1335", "term": "Yaw", "definition":""},
+                                  {"id": "1336", "term": "Main Shaft", "definition":""},
+                                  {"id": "1337", "term": "Cooling", "definition":""}
+                                ]},
+                              {"id": "134", "term": "Tower","definition":"",
+                                "class":[
+                                  {"id": "1341", "term": "Tubular", "definition":""},
+                                  {"id": "1342", "term": "Lattice", "definition":""}
+                                ]},
+                              {"id": "135", "term": "Support Structure","definition":"",
+                                "class":[
+                                  {"id": "1351", "term": "Foundation", "definition":""},
+                                  {"id": "1352", "term": "Mooring Lines", "definition":""},
+                                  {"id": "1353", "term": "Substructure", "definition":""},
+                                  {"id": "1354", "term": "Floating", "definition":""}
+                                ]},
+                              {"id": "136", "term": "Controls","definition":"", "class":[
+                                {"id": "1361", "term": "Black-Box", "definition":""}
+                              ]}
                               ]
                 },
                 {
                   "id":"14",
                   "term": "Wind Power Plant",
                   "definition": "",
-                  "division":[{"id": "141", "term": "Wind Farm","definition":""},
+                  "division":[{"id": "141", "term": "Wind Farm","definition":"", "class":[
+                    {"id": "1411", "term": "Wakes", "definition":""}
+                  ]},
                               {"id": "142", "term": "Wind Farm Control","definition":""},
                               {"id": "143", "term": "Ancillary Services","definition":""},
-                              {"id": "144", "term": "Grid Connection","definition":""},
+                              {"id": "144", "term": "Grid Connection","definition":"", "class":[
+                                {"id": "1441", "term": "Array Cables", "definition":""},
+                                {"id": "1442", "term": "Substation", "definition":""},
+                                {"id": "1443", "term": "Transmission System", "definition":""}
+                              ]},
                               {"id": "145", "term": "Performance","definition":""},
                               {"id": "146", "term": "Loads","definition":""}
                               ]
@@ -77,8 +114,17 @@
                               {"id": "152", "term": "Commissioning","definition":""},
                               {"id": "153", "term": "Forecasting","definition":""},
                               {"id": "154", "term": "Health & Safety","definition":""},
-                              {"id": "155", "term": "Maintenance Scheduling","definition":""},
-                              {"id": "156", "term": "Decommissioning","definition":""}
+                              {"id": "155", "term": "Maintenance Scheduling","definition":"", "class":[
+                                {"id":"1551", "term":"Logistics and Forecasting Weather Windows", "definition":""}
+                              ]},
+                              {"id": "156", "term": "Decommissioning","definition":"", "class":[
+                                {"id":"1561", "term": "End-of-Life Extension", "definition": "", "order":[
+                                  {"id":"15611","term": "Revamping", "definition":""},
+                                  {"id":"15612","term": "Repowering","definition":""},
+                                  {"id":"15613","term": "Re-Certification","definition":""},
+                                  {"id":"15614","term": "Recycling", "definition":""}                                  
+                                ]}
+                              ]}
                               ]
                 }
                ]
