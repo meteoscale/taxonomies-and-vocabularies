@@ -1,6 +1,6 @@
 {
   "name": "Models",
-  "childred":[
+  "children":[
     {"name": "Meteorological Models", 
     "children":[
       {"name": "GCM"}, {"name": "Mesoscale"}, {"name": "Hindcast"}
