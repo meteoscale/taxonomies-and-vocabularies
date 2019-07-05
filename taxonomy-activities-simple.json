@@ -1,0 +1,25 @@
+{
+  "name": "Activities",
+  "childred":[
+    {"name": "Measurements", "children":[
+      {"name": "Field Experiment"},  
+      {"name": "Long-Term Monitoring"},
+      {"name": "Laboratory Test"},
+      {"name": "Wind Tunnel Test"},
+      {"name": "Field Test"},
+      {"name": "Full Scale Test"},
+      {"name": "Condition Monitoring"},
+      {"name": "Fatigue Test"},
+      {"name": "Static Test"},
+      {"name": "Questionnaires"},
+      {"name": "Interviews"}
+    ]},
+    {"name": "Modeling"},
+    {"name": "Validation", "children":[
+      {"name": "Manufacturing"},  
+      {"name": "Reliability and Testing"},
+      {"name": "Certification"},
+      {"name": "Uncertainty Analysis"}
+    ]}
+  ]
+}

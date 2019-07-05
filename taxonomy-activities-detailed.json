@@ -1,0 +1,28 @@
+{"domain":{
+    "id":"1" ,"term": "Activities", "definition": "",
+    "kingdom":[
+      {"id":"11" ,"term": "Measurements", "definition": "", "division":[
+        {"id":"111" ,"id":"" ,"term": "Field Experiment", "definition": ""},  
+        {"id":"112" ,"term": "Long-Term Monitoring", "definition": ""},
+        {"id":"113" ,"term": "Laboratory Test", "definition": ""},
+        {"id":"114" ,"term": "Wind Tunnel Test", "definition": ""},
+        {"id":"115" ,"term": "Field Test", "definition": ""},
+        {"id":"116" ,"term": "Full Scale Test", "definition": ""},
+        {"id":"117" ,"term": "Condition Monitoring", "definition": ""},
+        {"id":"118" ,"term": "Fatigue Test", "definition": ""},
+        {"id":"119" ,"term": "Static Test", "definition": ""},
+        {"id":"1110" ,"term": "Questionnaires", "definition": ""},
+        {"id":"1111" ,"term": "Interviews", "definition": ""}
+      ]},
+
+      {"id":"12" ,"term": "Modeling", "definition": ""},
+
+      {"id":"13" ,"term": "Validation", "definition": "", "division":[
+        {"id":"131" ,"term": "Manufacturing", "definition": ""},  
+        {"id":"132" ,"term": "Reliability and Testing", "definition": ""},
+        {"id":"133" ,"term": "Certification", "definition": ""},
+        {"id":"134" ,"term": "Uncertainty Analysis", "definition": ""}
+      ]}
+    ]
+  }
+}
