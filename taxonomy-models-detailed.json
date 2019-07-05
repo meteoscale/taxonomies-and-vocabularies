@@ -1,0 +1,26 @@
+{"domain":{
+  "id": "id of term, number of digits indicates leve",
+  "term": "Wind Energy",
+  "definition": "definition of term",
+  "kingdom": {
+    "id": "",
+    "term": "first level narrow terms",
+    "definition": "",
+    "division": {
+      "id": "",
+      "term": "second level narrow terms",
+      "definition": "",
+      "class": {
+        "id": "",
+        "term": "third level narrow terms",
+        "definition": "",
+        "order": {
+          "id": "",
+          "term": "fourth level narrow terms",
+          "definition": ""
+        }
+      }
+    }
+  
+  }
+}}
