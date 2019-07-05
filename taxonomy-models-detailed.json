@@ -1,26 +1,70 @@
 {"domain":{
-  "id": "id of term, number of digits indicates leve",
-  "term": "Wind Energy",
-  "definition": "definition of term",
-  "kingdom": {
-    "id": "",
-    "term": "first level narrow terms",
-    "definition": "",
-    "division": {
-      "id": "",
-      "term": "second level narrow terms",
-      "definition": "",
-      "class": {
-        "id": "",
-        "term": "third level narrow terms",
-        "definition": "",
-        "order": {
-          "id": "",
-          "term": "fourth level narrow terms",
-          "definition": ""
-        }
-      }
-    }
-  
-  }
-}}
+  "id":"1",
+  "term": "Wind Energy Models", 
+  "definition":"",
+  "kingdom":[
+    {"id":"11","term": "Meteorological Models", "definition":"", 
+    "division":[
+      {"id":"111" ,"term": "GCM", "definition":""}, 
+      {"id":"112" ,"term": "Mesoscale", "definition":""}, 
+      {"id":"113" ,"term": "Hindcast", "definition":""}
+        ]},
+
+    {"id":"12" ,"term": "Oceanographic Models", "definition":"",
+    "division":[
+      {"id":"121" ,"term": "Hydrodynamic", "definition":"", "class":[
+        {"id":"1211" ,"term": "Morison Equation", "definition":""},
+        {"id":"1212" ,"term": "Radiation-Diffraction", "definition":""}
+      ]}, 
+      {"id":"122" ,"term": "Wave", "definition":"", "class":[
+        {"id":"1221" ,"term": "Linear", "definition":""},
+        {"id":"1222" ,"term": "Second Order", "definition":""},
+        {"id":"1223" ,"term": "Fully Nonlinear", "definition":""}
+      ]}
+        ]},
+        
+    {"id":"13" ,"term": "Flow Models", "definition":"", 
+      "division":[
+        {"id":"131" ,"term": "Linearized", "definition":""}, 
+        {"id":"132" ,"term": "RANS", "definition":""}, 
+        {"id":"133" ,"term": "LES", "definition":""}, 
+        {"id":"134" ,"term": "DNS", "definition":""}, 
+        {"id":"135" ,"term": "Vortex Method", "definition":""}, 
+        {"id":"136" ,"term": "Analytical", "definition":""}, 
+        {"id":"137" ,"term": "Physical", "definition":""} 
+          ]},
+
+    {"id":"14" ,"term": "Aeroelatic Models", "definition":"", 
+      "division":[
+        {"id":"141" ,"term": "FEM", "definition":""} 
+          ]},
+
+    {"id":"15" ,"term": "Structural Models", "definition":"", 
+      "division":[
+        {"id":"151" ,"term": "FEM", "definition":""} 
+          ]},          
+
+
+    {"id":"16" ,"term": "Electrical Models", "definition":"", 
+      "division":[
+        {"id":"161" ,"term": "Power Flow", "definition":""}, 
+        {"id":"162" ,"term": "OPF", "definition":""}, 
+        {"id":"163" ,"term": "Small-Signal Models", "definition":""}, 
+        {"id":"164" ,"term": "Dynamic Models", "definition":""},
+        {"id":"165" ,"term": "Short Circuit Models", "definition":""}, 
+        {"id":"166" ,"term": "State Estimation", "definition":""}, 
+        {"id":"167" ,"term": "Power Protection Analysis models", "definition":""},
+        {"id":"168" ,"term": "Contigency Analysis Models", "definition":""},
+        {"id":"169" ,"term": "Harmonic Models", "definition":""}  
+          ]},   
+
+    {"id":"17" ,"term": "Financial Models", "definition":"", 
+      "division":[
+        {"id":"171" ,"term": "BoS", "definition":""}, 
+        {"id":"172" ,"term": "NPV", "definition":""}, 
+        {"id":"173" ,"term": "LCOE", "definition":""}, 
+        {"id":"174" ,"term": "IRR", "definition":""}
+          ]}
+    ]
+}
+}
