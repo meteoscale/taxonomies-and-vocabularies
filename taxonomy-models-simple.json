@@ -3,7 +3,9 @@
   "children":[
     {"name": "Meteorological Models", 
     "children":[
-      {"name": "GCM"}, {"name": "Mesoscale"}, {"name": "Hindcast"}
+      {"name": "GCM"}, 
+      {"name": "Mesoscale"}, 
+      {"name": "Hindcast"}
         ]},
 
     {"name": "Oceanographic Models", 
@@ -21,11 +23,16 @@
         
     {"name": "Flow Models", 
       "children":[
-        {"name": "Linearized"}, {"name": "RANS"}, {"name": "LES"}, {"name": "DNS"}, 
-        {"name": "Vortex Method"}, {"name": "Analytical"}, {"name": "Physical"} 
+        {"name": "Linearized"}, 
+        {"name": "RANS"}, 
+        {"name": "LES"}, 
+        {"name": "DNS"}, 
+        {"name": "Vortex Method"}, 
+        {"name": "Analytical"}, 
+        {"name": "Physical"} 
           ]},
 
-    {"name": "Aeroelatic Models", 
+    {"name": "Aeroelastic Models", 
       "children":[
         {"name": "FEM"} 
           ]},
@@ -38,13 +45,23 @@
 
     {"name": "Electrical Models", 
       "children":[
-        {"name": "Power Flow"}, {"name": "OPF"}, {"name": "Small-Signal Models"}, {"name": "Dynamic Models"},
-        {"name": "Short Circuit Models"}, {"name": "State Estimation"}, {"name": "Power Protection Analysis Models"}, {"name": "Contigency Analysis Models"}, {"name": "Harmonic Models"}  
+        {"name": "Power Flow"}, 
+        {"name": "OPF"}, 
+        {"name": "Small-Signal Models"}, 
+        {"name": "Dynamic Models"},
+        {"name": "Short Circuit Models"}, 
+        {"name": "State Estimation"}, 
+        {"name": "Power Protection Analysis Models"}, 
+        {"name": "Contingency Analysis Models"}, 
+        {"name": "Harmonic Models"}  
           ]},   
 
     {"name": "Financial Models", 
       "children":[
-        {"name": "BoS"}, {"name": "NPV"}, {"name": "LCOE"}, {"name": "IRR"}
+        {"name": "BoS"}, 
+        {"name": "NPV"}, 
+        {"name": "LCOE"}, 
+        {"name": "IRR"}
           ]}
     ]
 }

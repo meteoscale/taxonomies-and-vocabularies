@@ -34,7 +34,7 @@
         {"id":"137" ,"term": "Physical", "definition":""} 
           ]},
 
-    {"id":"14" ,"term": "Aeroelatic Models", "definition":"", 
+    {"id":"14" ,"term": "Aeroelastic Models", "definition":"", 
       "division":[
         {"id":"141" ,"term": "FEM", "definition":""} 
           ]},
@@ -54,7 +54,7 @@
         {"id":"165" ,"term": "Short Circuit Models", "definition":""}, 
         {"id":"166" ,"term": "State Estimation", "definition":""}, 
         {"id":"167" ,"term": "Power Protection Analysis models", "definition":""},
-        {"id":"168" ,"term": "Contigency Analysis Models", "definition":""},
+        {"id":"168" ,"term": "Contingency Analysis Models", "definition":""},
         {"id":"169" ,"term": "Harmonic Models", "definition":""}  
           ]},   
 
