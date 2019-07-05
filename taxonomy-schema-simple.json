@@ -1,5 +1,4 @@
-[
-  {
+{
   "name": "Wind Energy",
   "childred":[
     {"name": "firt level narrow terms", 
@@ -16,4 +15,3 @@
 
   ]
 }
-]

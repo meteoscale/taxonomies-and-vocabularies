@@ -1,23 +1,23 @@
 {"domain":{
-  "id": "",
-  "label": "Wind Energy",
-  "description": "",
+  "id": "id of term, number of digits indicates leve",
+  "term": "Wind Energy",
+  "definition": "definition of term",
   "kingdom": {
     "id": "",
-    "label": "first level narrow terms",
-    "description": "",
+    "term": "first level narrow terms",
+    "definition": "",
     "division": {
       "id": "",
-      "label": "second level narrow terms",
-      "description": "",
+      "term": "second level narrow terms",
+      "definition": "",
       "class": {
         "id": "",
-        "label": "third level narrow terms",
-        "description": "",
+        "term": "third level narrow terms",
+        "definition": "",
         "order": {
           "id": "",
-          "label": "fourth level narrow terms",
-          "description": "",
+          "term": "fourth level narrow terms",
+          "definition": ""
         }
       }
     }
