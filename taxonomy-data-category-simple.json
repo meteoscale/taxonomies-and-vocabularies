@@ -1,0 +1,12 @@
+{
+  "name": "Data Category",
+  "children":[
+    {"name": "Meterological Data"}, 
+    {"name": "Topographic Data"},
+    {"name": "SCADA Data"},
+    {"name": "Wind Turbine Data"},
+    {"name": "Wind Farm Data"},
+    {"name": "Uncategorized Data"}
+
+  ]
+}

@@ -1,0 +1,16 @@
+{
+"domain":{
+          "id":"1", 
+          "term": "Data Category",
+          "definition":"",
+          "children":[
+            {"id":"11", "term": "Meterological Data","definition":""}, 
+            {"id":"12", "term": "Topographic Data","definition":""},
+            {"id":"13", "term": "SCADA Data","definition":""},
+            {"id":"14", "term": "Wind Turbine Data","definition":""},
+            {"id":"15", "term": "Wind Farm Data","definition":""},
+            {"id":"16", "term": "Uncategorized Data","definition":""}
+
+          ]
+         }
+}
