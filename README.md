@@ -1,4 +1,4 @@
-# Wind energy taxonomies and restricted vocabularies for tagging data
+# Wind energy taxonomies and restricted vocabularies <br>for tagging data
 
 The taxonomies and restricted vocabularies allow an accurate description of data sets and data collections.
 They are the result of IRPWind Open Data initiative in which wind energy experts generate the first version of taxonomies and restricted vocabularies as an input for defining and structuring wind energy metadata cards. Currently, the taxonomies and restricted vocabularies are implemented in ShareWind (https://sharewind.eu) and DTU data (https://data.dtu.dk/DTU_Wind_Energy) platforms.
