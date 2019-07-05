@@ -5,10 +5,6 @@ They are the result of IRPWind Open Data initiative in which wind energy experts
 
 See visual representations of taxonomies:
 
-Topics> http://data.windenergy.dtu.dk/taxonomy/topics.html <br>
-Models> http://data.windenergy.dtu.dk/taxonomy/models.html <br>
-Activities> http://data.windenergy.dtu.dk/taxonomy/activities.html <br>
-External Conditions> http://data.windenergy.dtu.dk/taxonomy/external-conditions.html <br>
-Data Categories> http://data.windenergy.dtu.dk/taxonomy/data-categories.html <br>
+http://data.windenergy.dtu.dk/taxonomy/
 
 The taxonomies and restricted vocabularies are intended to be used by the community and we welcome collaborators willing to extend them and improve them.
