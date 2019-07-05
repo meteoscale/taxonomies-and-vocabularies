@@ -1,6 +1,6 @@
 {
   "name": "Activities",
-  "childred":[
+  "children":[
     {"name": "Measurements", "children":[
       {"name": "Field Experiment"},  
       {"name": "Long-Term Monitoring"},
