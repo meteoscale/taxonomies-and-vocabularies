@@ -1,0 +1,34 @@
+{
+  "name": "External Conditions",
+  "children":[
+    {"name": "Location", "children":[
+      {"name": "Offshore", "children":[
+        {"name": "Nearshore"},
+        {"name": "Offshore"}
+      ]},
+      {"name": "Onshore", "children":[
+        {"name": "Coastal"},
+        {"name": "Inland"}
+      ]}  
+    ]},
+    {"name": "Topography", "children":[
+      {"name": "Urban"},
+      {"name": "Semi-Urban"},
+      {"name": "Rural"},
+      {"name": "Forest"}      
+    ]},
+    {"name": "Terrain Type", "children":[
+      {"name": "Flat"},
+      {"name": "Complex", "children":[
+        {"name": "Hilly"},
+        {"name": "Escarpment"},
+        {"name": "Ridge"}
+      ]}      
+    ]},
+    {"name": "Water Depth Category", "children":[
+      {"name": "Shallow Water"},
+      {"name": "Deep Water"}
+    ]}
+
+  ]
+}

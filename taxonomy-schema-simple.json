@@ -1,6 +1,6 @@
 {
   "name": "Wind Energy",
-  "childred":[
+  "children":[
     {"name": "first level narrow terms", 
     "children":[
       {"name": "second level narrow terms",

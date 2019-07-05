@@ -1,0 +1,100 @@
+{
+  "domain": {
+    "id": "1",
+    "term": "External Conditions",
+    "definition": "",
+    "kingdom": [{
+        "id": "11",
+        "term": "Location",
+        "division": [{
+            "id": "111",
+            "term": "Offshore",
+            "class": [{
+                "id": "1111",
+                "term": "Nearshore"
+              },
+              {
+                "id": "1112",
+                "term": "Offshore"
+              }
+            ]
+          },
+          {
+            "id": "112",
+            "term": "Onshore",
+            "class": [{
+                "id": "1121",
+                "term": "Coastal"
+              },
+              {
+                "id": "1122",
+                "term": "Inland"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "term": "Topography",
+        "division": [{
+            "id": "121",
+            "term": "Urban"
+          },
+          {
+            "id": "122",
+            "term": "Semi-Urban"
+          },
+          {
+            "id": "123",
+            "term": "Rural"
+          },
+          {
+            "id": "124",
+            "term": "Forest"
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "term": "Terrain Type",
+        "division": [{
+            "id": "131",
+            "term": "Flat"
+          },
+          {
+            "id": "132",
+            "term": "Complex",
+            "class": [{
+                "id": "1321",
+                "term": "Hilly"
+              },
+              {
+                "id": "1322",
+                "term": "Escarpment"
+              },
+              {
+                "id": "1323",
+                "term": "Ridge"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "term": "Water Depth Category",
+        "division": [{
+            "id": "141",
+            "term": "Shallow Water"
+          },
+          {
+            "id": "142",
+            "term": "Deep Water"
+          }
+        ]
+      }
+
+    ]
+  }
+}
